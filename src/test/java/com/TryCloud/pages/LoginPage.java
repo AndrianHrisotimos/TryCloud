@@ -20,4 +20,13 @@ public class LoginPage {
 
     @FindBy(xpath = "//input[@id=\"submit-form\"]")
     public WebElement LoginButton;
+
+    public void login(String username, String password){
+        inputUsername.sendKeys(username);
+        inputPassword.sendKeys(password);
+        LoginButton.click();
+    }
+
+    @FindBy(xpath = "//p[@class='warning wrongPasswordMsg']")
+    public WebElement warningMessage;
 }
