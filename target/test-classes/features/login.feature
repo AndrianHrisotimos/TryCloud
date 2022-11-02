@@ -35,8 +35,10 @@ Feature:TryCloud app login feature
           | Employee33 | Employee12  |
           | Employee   | Employee13  |
           | Employee33 | employee123 |
+          | EMPLOYEE33 | Employee123 |
 
-   @US-001_CLOUD-1342
+
+  @US-001_CLOUD-1342
    Scenario Outline: User can not login with any invalid credentials
      When user enters wrong "<username>" and "<password>"
      Then "Please fill out this field" message should be displayed if the password or username is empty

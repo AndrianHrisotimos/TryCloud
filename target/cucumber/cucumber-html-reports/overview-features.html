@@ -50,8 +50,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                58,
-                0,
+                29,
+                1,
                 0,
                 0,
                 0
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 58) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 30) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                18,
-                0
+                9,
+                1
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 18) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 10) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   1,
-                   0
+                   0,
+                   1
                ],
                backgroundColor: [
                 "#00B000",
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>31 Oct 2022, 04:01</td>
+      <td>02 Nov 2022, 03:02</td>
     </tr>
   </tbody>
 </table>
@@ -325,52 +325,52 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_965572540.html">TryCloud app login feature</a></td>
 
-        <td      class="passed"    >58</td>
+        <td      class="passed"    >29</td>
+        <td      class="failed"    >1</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td class="total">58</td>
+        <td class="total">30</td>
 
-        <td  class="passed"    >18</td>
-        <td >0</td>
-        <td class="total">18</td>
+        <td  class="passed"    >9</td>
+        <td  class="failed"    >1</td>
+        <td class="total">10</td>
 
-        <td class="duration" data-value="82254399400">1:22.254</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="120938054200">2:0.938</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>58</td>
+      <td>29</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>58</td>
+      <td>30</td>
 
-      <td>18</td>
-      <td>0</td>
-      <td>18</td>
+      <td>9</td>
+      <td>1</td>
+      <td>10</td>
 
-      <td class="duration">1:22.254</td>
+      <td class="duration">2:0.938</td>
       <td>1</td>
     </tr>
     <tr>
       <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
+      <td>96.67%</td>
+      <td>3.33%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>100.00%</td>
+      <td>90.00%</td>
+      <td>10.00%</td>
+      <td></td>
+      <td></td>
       <td>0.00%</td>
-      <td></td>
-      <td></td>
-      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>
