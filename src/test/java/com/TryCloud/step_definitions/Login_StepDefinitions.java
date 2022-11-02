@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
-public class Credentials_StepDefinitions {
+public class Login_StepDefinitions {
     @Given("user can go to {string}")
     public void user_can_go_to(String string) {
         String url = ConfigurationReader.getProperty("WebTableUrl");

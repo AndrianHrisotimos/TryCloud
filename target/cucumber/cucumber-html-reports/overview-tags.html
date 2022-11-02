@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@US-001_CLOUD-1343", ] ,
+        labels:  [ "@CLOUD-1144",  "@CLOUD-1438",  "@CLOUD-1439", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00, ] 
+                data:  [ 100.00,  100.00,  100.00, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             }
         ]
     };
@@ -133,7 +133,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>02 Nov 2022, 03:23</td>
+      <td>04 Nov 2022, 02:16</td>
     </tr>
   </tbody>
 </table>
@@ -195,20 +195,54 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-tag_802466421.html">@US-001_CLOUD-1343</a></td>
+        <td class="tagname"><a href="report-tag_3258938775.html">@CLOUD-1144</a></td>
 
-        <td      class="passed"    >2</td>
+        <td      class="passed"    >7</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
+        <td >0</td>
+        <td class="total">7</td>
+
+        <td  class="passed"    >2</td>
         <td >0</td>
         <td class="total">2</td>
+
+        <td class="duration" data-value="2682348800">2.682</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-tag_3258941631.html">@CLOUD-1438</a></td>
+
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="55023600">0.055</td>
+        <td class="duration" data-value="1298723600">1.298</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-tag_3258941632.html">@CLOUD-1439</a></td>
+
+        <td      class="passed"    >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="1383625200">1.383</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -216,19 +250,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>2</td>
+      <td>14</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
+      <td>14</td>
 
-      <td>1</td>
+      <td>4</td>
       <td>0</td>
-      <td>1</td>
+      <td>4</td>
 
-      <td class="duration">0.055</td>
-      <td>1</td>
+      <td class="duration">5.364</td>
+      <td>3</td>
     </tr>
     <tr>
       <td></td>
