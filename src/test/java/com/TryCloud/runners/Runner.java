@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/TryCloud/step_definitions",
         dryRun = false,
-        tags = "@US-001_Cloud-1328"
+        tags = "@US-001_CLOUD-1343"
 
    )
 public class Runner {
