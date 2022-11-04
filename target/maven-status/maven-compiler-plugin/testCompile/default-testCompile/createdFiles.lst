@@ -1,8 +1,5 @@
-com\TryCloud\runners\Runner.class
 com\TryCloud\utilities\BrowserUtils.class
-com\TryCloud\pages\LoginPage.class
-com\TryCloud\step_definitions\Hooks.class
-com\TryCloud\step_definitions\Credentials_StepDefinitions.class
+com\TryCloud\runners\FailedScenarioRunner.class
 com\TryCloud\utilities\Driver.class
 com\TryCloud\utilities\BrowserUtils$1.class
 com\TryCloud\utilities\ConfigurationReader.class
