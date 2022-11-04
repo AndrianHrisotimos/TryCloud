@@ -50,10 +50,10 @@ public class Logout_StepDefinitions {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(loginPage));
     }
 
-    @Then("verify user can not go back on dashboard page by clicking forward button")
-    public void verify_user_can_not_go_back_on_dashboard_page_by_clicking_forward_button() {
+    @Then("verify user can not go back on dashboard page by clicking back button")
+    public void verify_user_can_not_go_back_on_dashboard_page_by_clicking_back_button() {
 
-        Driver.getDriver().navigate().forward();
+        Driver.getDriver().navigate().back();
 
         BrowserUtils.verifyTitle("Trycloud QA");
     }

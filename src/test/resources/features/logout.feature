@@ -17,4 +17,4 @@
     Scenario: User can not go to home page again by clicking step back button after successfully logged out.
       When user click on user profile settings
       And user click on logout button
-      Then verify user can not go back on dashboard page by clicking forward button
+      Then verify user can not go back on dashboard page by clicking back button
